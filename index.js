@@ -27,7 +27,6 @@ document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
 
 //flags for winner
-
 let h1 = document.querySelector('h1');// var image1= $('h1') in jQuery
 
 if (randomNumber1 > randomNumber2){
@@ -35,7 +34,7 @@ if (randomNumber1 > randomNumber2){
 }else if (randomNumber1 < randomNumber2){
     h1.innerHTML = "Player 2 Wins!  🚩";
 }else{
-    h1.innerHTML = "Draw!";
+    h1.innerHTML = "Draw!"; 
 }
 
 
